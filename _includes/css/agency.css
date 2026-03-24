@@ -671,6 +671,16 @@ section h3.section-subheading {
 
 aside.clients img {
     margin: 50px auto;
+    height: 80px;        
+    width: auto;         
+    object-fit: contain; 
+    display: block;      
+}
+
+aside.clients .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 section#contact {
