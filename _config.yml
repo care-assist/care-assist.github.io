@@ -11,7 +11,7 @@ description: "Write an awesome description for your new site here. You can edit 
 people:
 - name: Courtney Chen
   pic: courtney
-  position: Data Labeler, Data Engineering, Model Evaluation
+  position: Data Analysis, Data Engineering, Model Evaluation
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/courtneyjchen/
@@ -32,7 +32,7 @@ people:
 
 - name: Priscilla Siow
   pic: priss
-  position: Project Manager, ML Engineer, UI Design
+  position: Product Manager, ML Engineer, UI Design
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/priscilla-siow/
