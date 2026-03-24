@@ -10,29 +10,29 @@ description: "Write an awesome description for your new site here. You can edit 
 # Team names, titles and social links
 people:
 - name: Courtney Chen
-  pic: 1
-  position: Lead Designer
+  pic: courtney
+  position: Data Labeler, Data Engineering, Model Evaluation
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/courtneyjchen/
 
 - name: Samantha Townsend
-  pic: 2
-  position: Lead Marketer
+  pic: samantha
+  position: Subject Matter Expert,  Project Manager, Infrastructure & Data Engineering
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/samantha-townsend-a95b841b2/
 
 - name: Helin Yilmaz
-  pic: 3
-  position: Lead Developer
+  pic: helin
+  position: Data Analysis, ML Engineer, UI Design
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/helin-yilmaz-/
 
 - name: Priscilla Siow
-  pic: 4
-  position: Lead Developer
+  pic: priss
+  position: Project Manager, ML Engineer, UI Design
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/priscilla-siow/
