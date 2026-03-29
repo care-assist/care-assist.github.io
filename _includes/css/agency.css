@@ -70,12 +70,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: #000;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: #000;
 }
 
 .btn-primary:hover,
@@ -83,9 +83,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: #000;
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: #222;
 }
 
 .btn-primary:active,
@@ -170,9 +170,48 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
+.btn-explore {
+    padding: 20px 40px;
+    border-color: #7c3aed;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #7c3aed;
+    display: inline-block;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+.btn-explore:hover,
+.btn-explore:focus,
+.btn-explore:active,
+.btn-explore.active {
+    border-color: #6d28d9;
+    color: #fff;
+    background-color: #6d28d9;
+    text-decoration: none;
+}
+
+section#contact .btn-xl {
+    border-color: #000;
+    background-color: #000;
+}
+
+section#contact .btn-xl:hover,
+section#contact .btn-xl:focus,
+section#contact .btn-xl:active,
+section#contact .btn-xl.active {
+    border-color: #000;
+    background-color: #222;
+}
+
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: transparent;
 }
 
 .navbar-default .navbar-brand {
@@ -195,8 +234,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
+    border-color: #000;
+    background-color: #000;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -222,19 +261,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.data.template.color.primary }};
+    color: #000;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: #000;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: #222;
 }
 
 @media(min-width:768px) {
@@ -260,7 +299,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #1f7a8c;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -359,6 +398,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+    color: #7c3aed;
 }
 
 section h3.section-subheading {
@@ -695,7 +735,7 @@ aside.clients .row {
 }
 
 section#contact {
-    background-color: #222;
+    background-color: #7c3aed;
     background-image: url('{{ site.baseurl }}/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -757,6 +797,12 @@ section#contact:-ms-input-placeholder {
 
 section#contact .text-danger {
     color: #e74c3c;
+}
+
+.contact-subheading {
+    color: #fff !important;
+    font-style: italic;
+    font-weight: 400;
 }
 
 footer {
