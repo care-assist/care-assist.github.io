@@ -412,9 +412,15 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 100px 0;
     }
 }
+
+section#mission    { padding: 70px 0; }
+section#demo       { padding: 70px 0; }
+section#team       { padding: 70px 0; }
+section#portfolio  { padding: 70px 0; }
+section#contact    { padding: 70px 0; }
 
 .service-heading {
     margin: 15px 0;
@@ -736,7 +742,7 @@ aside.clients .row {
 
 section#contact {
     background-color: #7c3aed;
-    background-image: url('{{ site.baseurl }}/img/contact-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/contacts_image.jpg');
     background-position: center;
     background-repeat: no-repeat;
 }
