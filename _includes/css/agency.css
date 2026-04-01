@@ -739,6 +739,7 @@ aside.clients .row {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #ffffff;
 }
 
 section#contact {
